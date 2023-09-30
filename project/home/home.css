@@ -101,7 +101,7 @@ header {
         background-size: 100%; /* Initial size of the background image */
     }
     100% {
-        background-size: 105%; /* Return to the initial size at the end of the animation */
+        background-size: 110%; /* Return to the initial size at the end of the animation */
     }
 }
 .card h3 {
@@ -301,4 +301,12 @@ footer a {
 footer p {
     color: white;
     margin: 0 auto;
+}
+
+footer h3{
+    font-size: 45px;
+    font-family: 'Cinzel' serif;
+    color: white;
+    margin: 0 auto;
+    font-weight: 400;
 }
