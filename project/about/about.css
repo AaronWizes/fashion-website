@@ -4,22 +4,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
 }
 
-.heading{
-    width: 90%;
-    display: flex;
-    justify-content: center;
+body{
+    margin: 0 48px;
+}
+
+.top{
+    margin-top: 5%;
+}
+
+.subtext{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fill{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.boxrleft{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.boxright{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: px;
+}
+
+.cube{
+    margin: 0 10px;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 20px auto;
 }
 
-.heading h1{
-    font-size: 50px;
-    color: black;
-    margin-bottom: 25px;
-    position: relative;
+.summaryevent{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-weight: bold;
 }
