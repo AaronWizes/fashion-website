@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-image: url(/assets/hero-bg-img.png);
+    background-image: url(/assets/homepage/hero-bg-img.png);
     width: 100%;
     height: 85vh;
     background-size: cover;
@@ -50,7 +50,7 @@ header {
 .display-font {
     color: #FFF;
     text-align: center;
-    font-family: Cinzel Decorative;
+    font-family: 'Cinzel Decorative' serif;
     font-size: 5.625rem;
     font-style: normal;
     font-weight: 400;
@@ -83,7 +83,31 @@ header {
     margin: 48px;
     gap: 48px;
 }
+.section-1 .card{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.section-1 .card .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.section-1 .card .card-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.section-1 .card .card-content a{
+    color: white;
+}
+/* 
 .card {
     position: relative;
     width: 100%;
@@ -98,10 +122,10 @@ header {
 }
 @keyframes zoom {
     0% {
-        background-size: 100%; /* Initial size of the background image */
+        background-size: 100%;
     }
     100% {
-        background-size: 110%; /* Return to the initial size at the end of the animation */
+        background-size: 110%;
     }
 }
 .card h3 {
@@ -119,12 +143,12 @@ header {
 }
 
 .card:nth-child(1) {
-    background-image: url(/assets/card-img-1.png);
+    background-image: url(/assets/homepage/card-img-1.png);
 }
 
 .card:nth-child(2) {
-    background-image: url(/assets/card-img-2.png);
-}
+    background-image: url(/assets/homepage/card-img-2.png);
+} */
 
 .section-2 {
     display: flex;
@@ -133,7 +157,7 @@ header {
     align-items: center;
     width: 100%;
     height: 90vh;
-    background-image: url(/assets/hero-perfume.png);
+    background-image: url(/assets/homepage/hero-perfume.png);
     background-size: cover;
 }
 
@@ -182,18 +206,19 @@ header {
 
 .card-container {
     padding: 20px;
+    background-color: #F0ECE4;
 }
 
 .best-seller-card-1 {
-    background-image: url(/assets/best-seller-1.png);
+    background-image: url(/assets/homepage/best-seller-1.png);
 }
 
 .best-seller-card-2 {
-    background-image: url(/assets/best-seller-2.png);
+    background-image: url(/assets/homepage/best-seller-2.png);
 }
 
 .best-seller-card-3 {
-    background-image: url(/assets/best-seller-3.png);
+    background-image: url(/assets/homepage/best-seller-3.png);
 }
 
 .section-4 {
@@ -227,11 +252,11 @@ header {
 }
 
 .fall-winter-card:nth-child(1) {
-    background-image: url(/assets/card-fall-winter-1.png);
+    background-image: url(/assets/homepage/card-fall-winter-1.png);
 }
 
 .fall-winter-card:nth-child(2) {
-    background-image: url(/assets/card-fall-winter-2.png);
+    background-image: url(/assets/homepage/card-fall-winter-2.png);
 }
 
 .fall-winter-card .content {
