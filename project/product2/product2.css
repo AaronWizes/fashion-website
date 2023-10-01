@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -32,62 +31,141 @@ nav .right-nav {
     font-family: 'Cinzer' serif;
 }
 
+h1{
+    font-size: 40px;
+}
+
 .header{
-    font-size: 24px;
-    font-family: 'Cinzel', serif;
-    margin: 40px 48px 0 48px;
+    display:flex;
+    margin: 0 48px 0 48px;
 }
 
-.parent{
-    margin: 5% 48px 0 48px;
-    display: grid; 
-    grid-template-rows:  1fr 1fr 1fr 1fr;
-    grid-template-columns:  1fr 1fr 1fr 1fr;
-    gap: 48px;
-}
-
-.child{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-}
-
-.product{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.content{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Cinzel', serif;
-}
-
-.see_more{
-    text-align: center;
-    margin-top: 10px;
-    padding: 5px 0 5px 0;
-    align-content: center;
-    border: 1px solid;
-    font-family: 'Cinzel', serif;
-    font-size: 13px;
+.icon-button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    color: black;
 }
 
-.see_more:hover{
+#icon1{
+    font-size: 24px;
+    padding-top: 13px;
+}
+
+#product-name{
+    margin-left: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.img-parent{
+    display: grid; 
+
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+   gap: 10px;
+   height: 700px;
+   margin: 0 48px 0 48px;
+}
+
+#img-child1{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    border: 1px solid;
+}
+
+#img-child2{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    border: 1px solid;
+}
+
+#img-child3{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    border: 1px solid;
+    grid-row-end: 2;
+    grid-column-end: 5;
+}
+
+#img-child4{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    border: 1px solid;
+}
+
+#img-child5{ 
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    border: 1px solid;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.detail-parent{
+    display: grid; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+    margin: 0 48px 0 48px;
+    padding-top: 50px;
+}
+
+#detail-child1{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    padding-right: 150px;
+    font-family: 'Cinzel', serif;
+}
+
+#detail-child2{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 4;
+}
+
+.details{
+    padding-top: 20px;
+}
+
+.stars{
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 20px;
+}
+#btn-buy{
+    border: 1px solid;
+    padding: 5px 183px 5px 183px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+
+#btn-buy:hover{
     color: white;
     background-color: black;
     transition: ease-out 0.3s;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
+    display:flex;
     flex-direction: column;
     width: 100%;
     height: fit-content;
