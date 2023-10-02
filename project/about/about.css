@@ -4,4 +4,269 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 48px;
+    height: 48px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav .right-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+}
+
+.hero {
+    margin-top: 30vh;
+}
+
+.top {
+    margin: 90px 0;
+    width: 100%;
+    position: relative;
+}
+
+.top video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stickypos {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.subtext {
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.fill {
+    margin: 0 48px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.boxrleft {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.boxright {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.cube {
+    margin: 0 10px;
+    position: relative;
+    top: 30px;
+}
+
+
+.year {
+    padding-top: 20px;
+}
+
+.summaryevent {
+    font-size: large;
+    font-weight: bold;
+}
+
+p {
+    font-weight: 400;
+}
+
+.padding {
+    display: grid;
+    margin: 30vh 48px;
+}
+
+.text1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.text2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.our-team {
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 48px;
+}
+
+.subtext2 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-grid-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 48px;
+    margin: 48px;
+}
+
+.parent {
+    width: 100%;
+}
+
+.pictures {
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.pictures img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.parent p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.pictures img {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    height: 1rem;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.phoenix {
+    background: #fff0e6;
+}
+
+.gekko {
+    background: #e8ffe6;
+}
+
+.yoru {
+    background: #e6edff;
+}
+
+.kayo {
+    background: #e6feff;
+}
+
+.name {
+    top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 48px;
+    background: #0C101E;
+    margin-top: 48px;
+    padding: 48px;
+}
+
+.line {
+    width: 100%;
+    height: 0.125rem;
+    background: white;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer .footer-nav a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+}
+
+footer .footer-nav a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: ease-in 0.3s;
+}
+
+footer .footer-nav a:hover:after {
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    margin: 0 auto;
+}
+
+footer h3 {
+    font-size: 45px;
+    font-family: 'Cinzel' serif;
+    color: white;
+    margin: 0 auto;
+    font-weight: 400;
 }

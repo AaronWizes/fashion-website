@@ -23,21 +23,29 @@ nav .right-nav {
     display: flex;
     gap: 1rem;
 }
-.logo{
+.logo {
     position: absolute;
-    left: 50%; 
-    transform: translateX(-50%); 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: black;
     font-size: 24px;
-    font-family: 'Cinzer' serif;
 }
-
+.header-h3{
+    font-size: 45px;
+    font-family: 'Cinzel', serif;
+    margin: 40px 48px 0 48px;
+}
+.header-p{
+    font-size: 24px;
+    font-family: 'Cinzel', serif;
+    margin: 40px 48px 0 48px;
+}
 .header{
     font-size: 24px;
     font-family: 'Cinzel', serif;
     margin: 40px 48px 0 48px;
 }
-
 .parent{
     margin: 5% 48px 0 48px;
     display: grid; 
