@@ -22,13 +22,13 @@ nav .right-nav {
     display: flex;
     gap: 1rem;
 }
-.logo{
+.logo {
     position: absolute;
-    left: 50%; 
-    transform: translateX(-50%); 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: black;
     font-size: 24px;
-    font-family: 'Cinzer' serif;
 }
 
 h1{
